@@ -7,9 +7,11 @@ A chatbot for an online shoe store that answers two kinds of customer questions:
 
 A **semantic router** decides which pipeline each question goes to, using embedding similarity instead of an extra LLM call. Greetings and general chat go to a separate small-talk handler, so they never reach the FAQ or SQL pipelines.
 
-**Live demo:** _add your Streamlit Cloud link here_
+**Live demo:** [Open the app on Streamlit Cloud](https://ecommerce-chatbot-muxdsau4k5rfp4vs3temhq.streamlit.app)
 
-> Add a screenshot of the running app here, e.g. `![demo](screenshot.png)`
+<p align="center">
+  <img src="screenshot.png" alt="E-commerce chatbot answering small talk, an FAQ and a product search" width="480">
+</p>
 
 ## How it works
 
