@@ -1,0 +1,18 @@
+# Secrets: never push your API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Vector store files (rebuilt automatically from the CSV on first run)
+chroma_db/
+vectorstore/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
